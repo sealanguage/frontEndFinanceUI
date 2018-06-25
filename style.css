@@ -1,0 +1,30 @@
+body{
+    font-family: Nunito, sans-serif;
+    box-sizing: border-box;
+    color: rgb(68, 68, 68);
+    letter-spacing: 1px;
+    height: 100vh;
+    background-image: url(http://bit.ly/ui-bg);
+    background-attachment: fixed;
+    outline: none;
+    background-repeat: no-repeat;
+}
+.container {
+    width: 90%;
+    max-width: 500px;
+    margin: 20px auto;
+}
+.logo {
+    width: 200px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+#client-list-ul {
+    min-width: 500px;
+    background-color: #fffbfb;
+    padding: 20px 20px 5px;
+    margin: 20px 10px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 20px #d3d1dd;
+}
